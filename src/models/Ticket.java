@@ -15,10 +15,7 @@ public class Ticket {
     public Ticket() {
     }
 
-    // methods
-    public void buyTicket(){
-        this.hasTicket = true;
-    }
+
     //getters & setters
     public int getId() {
         return id;
@@ -50,5 +47,14 @@ public class Ticket {
 
     public void setTicketSeats(String ticketSeats) {
         this.ticketSeats = ticketSeats;
+    }
+
+
+    public boolean isHasTicket() {
+        return hasTicket;
+    }
+
+    public void setHasTicket(boolean hasTicket) {
+        this.hasTicket = hasTicket;
     }
 }

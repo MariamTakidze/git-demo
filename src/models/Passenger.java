@@ -11,7 +11,7 @@ public class Passenger {
 
 
     public Passenger() {
-        ticket.buyTicket();
+
     }
 
     //
