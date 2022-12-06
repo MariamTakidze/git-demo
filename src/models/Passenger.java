@@ -1,12 +1,10 @@
 package models;
 
-public class Passenger {
+public class Passenger extends Person{
 
     private int id;
 
     private   Ticket ticket;
-
-    private  Person person;
 
 
 
@@ -32,12 +30,6 @@ public class Passenger {
         this.ticket = ticket;
     }
 
-    public Person getPerson() {
-        return person;
-    }
 
-    public void setPerson(Person person) {
-        this.person = person;
-    }
 }
 //

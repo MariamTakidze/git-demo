@@ -12,6 +12,8 @@ public class Vehicle {
 
     private Wheel wheel;
 
+    private Engine engine;
+
     private Driver driver;
 
 
@@ -23,6 +25,15 @@ public class Vehicle {
 
 
     //getters and setters
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getBrand() {
         return brand;
@@ -82,12 +93,25 @@ public class Vehicle {
         this.wheel = wheel;
     }
 
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
     public Driver getDriver() {
         return driver;
     }
 
     public void setDriver(Driver driver) {
         this.driver = driver;
+    }
+
+    //move method
+    public void move(){
+       this.getEngine().start();
     }
 
 }

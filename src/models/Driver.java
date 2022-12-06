@@ -1,31 +1,22 @@
 package models;
 
-public class Driver {
+public class Driver extends Person{
 
-    private int id;
 
-    private  Person person;
 
     private DrivingLicenses drivingLicense;
 
+
+    //default constructor
     public Driver() {
     }
 
-    public int getId() {
-        return id;
+    public Driver(int id, String firstName,String lastName,int age,String sex) {
+        super(id,firstName,lastName,age,sex);
+
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
-    public Person getPerson() {
-        return person;
-    }
-
-    public void setPerson(Person person) {
-        this.person = person;
-    }
 
     public DrivingLicenses getDrivingLicense() {
         return drivingLicense;
@@ -33,5 +24,19 @@ public class Driver {
 
     public void setDrivingLicense(DrivingLicenses drivingLicense) {
         this.drivingLicense = drivingLicense;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Driver{" +
+                "id:" + id +
+                ", firstName:'" + firstName + '\'' +
+                ", lastName:'" + lastName + '\'' +
+                ", age:" + age + '\'' +
+                ", sex:" + sex + '\'' +
+                ",drivingLicense:" + drivingLicense +
+                '}';
     }
 }

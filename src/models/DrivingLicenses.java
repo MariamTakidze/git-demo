@@ -33,4 +33,13 @@ public class DrivingLicenses {
     public void setLicenseValidation(String licenseValidation) {
         this.licenseValidation = licenseValidation;
     }
+
+    @Override
+    public String toString() {
+        return "DrivingLicenses{" +
+                "id=" + id +
+                ", type='" + type + '\'' +
+                ", licenseValidation='" + licenseValidation.toString() + '\'' +
+                '}';
+    }
 }
