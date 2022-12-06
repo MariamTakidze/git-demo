@@ -1,0 +1,27 @@
+2022-12-06 18:47:10.297 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-06 18:47:10.300 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-06 18:47:10.300 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-06 18:47:10.301 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-06 18:47:31.830 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-06 18:47:31.831 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-06 18:47:31.832 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-06 18:47:31.832 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-06 18:47:46.363 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-06 18:47:46.366 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-06 18:47:46.366 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-06 18:47:46.366 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-06 18:48:54.801 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-06 18:48:54.803 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-06 18:48:54.803 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-06 18:48:54.804 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-06 19:13:23.055 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:13:23.058 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up
+2022-12-06 19:15:04.586 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:15:04.589 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up
+2022-12-06 19:19:28.145 INFO [main] [Main.main(Main.java:81)] - 1
+2022-12-06 19:20:24.742 INFO [main] [Main.main(Main.java:81)] - 1
+2022-12-06 19:20:24.761 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:20:24.761 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up
+2022-12-06 19:21:52.206 INFO [main] [Main.main(Main.java:81)] - 1
+2022-12-06 19:21:52.226 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:21:52.226 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up

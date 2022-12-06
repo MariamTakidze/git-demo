@@ -1,14 +1,15 @@
 package models;
-
 import interfaces.IPerson;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
 public class Person implements IPerson {
+    private static final Logger LOGGER = LogManager.getLogger(Person.class);
+     int id;
 
-    int id;
-
-  String firstName;
+    String firstName;
 
      String lastName;
 
@@ -106,12 +107,12 @@ public class Person implements IPerson {
 
     @Override
     public void think() {
-        System.out.println("I am able to think, therefore I exist.");
+        LOGGER.info("I am able to think, therefore I exist.");
     }
 
     @Override
     public void speak() {
-        System.out.println("Speak Up");
+        LOGGER.info("Speak Up");
     }
 
     @Override

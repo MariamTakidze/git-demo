@@ -1,7 +1,7 @@
 package models;
 import interfaces.ICar;
 
-public final class Car extends Vehicle implements ICar {
+public  class Car extends Vehicle implements ICar {
     //final variable
     final static String vehicleType = "Car";
 

@@ -1,18 +1,20 @@
-import InterfacesImplementations.CarInterfaceImpl;
-import interfaces.ICar;
+
+
+
+
 import models.*;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class Main {
-    public static org.apache.logging.log4j.Logger logger;
+    private static final Logger LOGGER = LogManager.getLogger(Main.class);
+//    public static org.apache.logging.log4j.Logger logger;
     public static void main(String[] args) {
 
-        CarInterfaceImpl carInt = new CarInterfaceImpl();
 
 
-        logger = LogManager.getLogger(Main.class);
+
 
 
         //destinations
@@ -76,7 +78,7 @@ public class Main {
 
 //
 
-
+//        LOGGER.log();
         System.out.println(wheel.getId());
         System.out.println(wheel.getBrandName());
         System.out.println(wheel.getSize());
@@ -138,5 +140,6 @@ public class Main {
         System.out.println(person.getFirstName());
         person.displayPersonInfo("Mar","Gango","Female",29);
         System.out.println(person.getAge());
+
     }
 }

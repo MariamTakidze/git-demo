@@ -2,6 +2,7 @@ package exceptions;
 
 public class TestCustomizedException {
 
+
     public static void main(String[] args) throws AgeLessThanZeroException{
         validateAge(-7);
     }

@@ -1,6 +1,11 @@
 package exceptions;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 public class DrivingAgeExceptionHandling {
+//    public static org.apache.logging.log4j.Logger logger;
+    private static final Logger LOGGER = LogManager.getLogger(DrivingAgeExceptionHandling.class);
     static void validateDrivingAge (int age) throws InvalidDrivingAgeException{
         if(age < 17){
 
@@ -8,23 +13,25 @@ public class DrivingAgeExceptionHandling {
             throw new InvalidDrivingAgeException("age is not valid to get Driving license");
         }
         else {
-            System.out.println("You can get Driving license");
+            LOGGER.info("You can get Driving license");
         }
+
     }
     public static void main(String[] args) {
         try{
             validateDrivingAge(16);
         }
         catch (NumberFormatException  e){
-            System.out.println("Number format exception occurred" + e.getMessage());
+//            System.out.println("Number format exception occurred" + e.getMessage());
+            LOGGER.error(e.getMessage());
         }
         catch (InvalidDrivingAgeException exception){
-            System.out.println("Age is less than 17");
-            System.out.println(exception.getMessage());
+            LOGGER.info("Age is less than 17");
+            LOGGER.error(exception.getMessage());
         }
         finally {
-            System.out.println("I am always executed");
+            LOGGER.info("I am always executed");
         }
-        System.out.println("End of our journey");
+            LOGGER.info("End of our journey");
     }
 }
