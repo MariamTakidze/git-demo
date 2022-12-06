@@ -1,14 +1,18 @@
 import InterfacesImplementations.CarInterfaceImpl;
 import interfaces.ICar;
 import models.*;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
 
 
 public class Main {
+    public static org.apache.logging.log4j.Logger logger;
     public static void main(String[] args) {
+
         CarInterfaceImpl carInt = new CarInterfaceImpl();
 
 
-
+        logger = LogManager.getLogger(Main.class);
 
 
         //destinations
@@ -116,6 +120,7 @@ public class Main {
         //creating the car object
         Car car = new Car();
         car.setColor("red");
+        car.setColor("blue");
         car.setVehicleType("bus");
         car.honk();
         car.drive();
