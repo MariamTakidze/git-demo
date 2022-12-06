@@ -25,3 +25,46 @@
 2022-12-06 19:21:52.206 INFO [main] [Main.main(Main.java:81)] - 1
 2022-12-06 19:21:52.226 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
 2022-12-06 19:21:52.226 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up
+2022-12-06 19:31:03.822 INFO [main] [Main.main(Main.java:81)] - 1
+2022-12-06 19:31:03.824 INFO [main] [Main.main(Main.java:82)] - Hokohama
+2022-12-06 19:31:03.824 INFO [main] [Main.main(Main.java:83)] - Hokohama
+2022-12-06 19:31:03.825 INFO [main] [Main.main(Main.java:84)] - 17
+2022-12-06 19:31:03.825 INFO [main] [Main.main(Main.java:86)] - Tbilisi
+2022-12-06 19:31:03.825 INFO [main] [Main.main(Main.java:87)] - Batumi
+2022-12-06 19:31:03.825 INFO [main] [Main.main(Main.java:89)] - Ureki
+2022-12-06 19:31:03.844 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:31:03.844 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up
+2022-12-06 19:35:22.415 INFO [main] [Main.main(Main.java:81)] - 1
+2022-12-06 19:35:22.417 INFO [main] [Main.main(Main.java:82)] - Hokohama
+2022-12-06 19:35:22.417 INFO [main] [Main.main(Main.java:83)] - Hokohama
+2022-12-06 19:35:22.418 INFO [main] [Main.main(Main.java:84)] - 17
+2022-12-06 19:35:22.418 INFO [main] [Main.main(Main.java:86)] - Tbilisi
+2022-12-06 19:35:22.418 INFO [main] [Main.main(Main.java:87)] - Batumi
+2022-12-06 19:35:22.418 INFO [main] [Main.main(Main.java:89)] - Ureki
+2022-12-06 19:35:22.418 INFO [main] [Main.main(Main.java:92)] - Lolita
+2022-12-06 19:35:22.418 INFO [main] [Main.main(Main.java:93)] - 42
+2022-12-06 19:35:22.426 INFO [main] [Main.main(Main.java:94)] - Person{id:0, firstName:'Lolita', lastName:'Bosh', age:42', sex:Female'}
+2022-12-06 19:35:22.436 INFO [main] [Main.main(Main.java:95)] - Driver{id:12, firstName:'Giuseppe', lastName:'Verdi', age:32', sex:Male',drivingLicense:DrivingLicenses{id=0, type='B', licenseValidation='true'}}
+2022-12-06 19:35:22.437 INFO [main] [Main.main(Main.java:98)] - Person{id:13, firstName:'MAri', lastName:'Takidze', age:28', sex:Female'}
+2022-12-06 19:35:22.437 INFO [main] [Main.main(Main.java:99)] - 1693393655
+2022-12-06 19:35:22.437 INFO [main] [Main.main(Main.java:100)] - false
+2022-12-06 19:35:22.438 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:35:22.439 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up
+2022-12-06 19:38:01.978 INFO [main] [Main.main(Main.java:81)] - 1
+2022-12-06 19:38:01.981 INFO [main] [Main.main(Main.java:82)] - Hokohama
+2022-12-06 19:38:01.981 INFO [main] [Main.main(Main.java:83)] - Hokohama
+2022-12-06 19:38:01.981 INFO [main] [Main.main(Main.java:84)] - 17
+2022-12-06 19:38:01.981 INFO [main] [Main.main(Main.java:86)] - Tbilisi
+2022-12-06 19:38:01.982 INFO [main] [Main.main(Main.java:87)] - Batumi
+2022-12-06 19:38:01.982 INFO [main] [Main.main(Main.java:89)] - Ureki
+2022-12-06 19:38:01.982 INFO [main] [Main.main(Main.java:92)] - Lolita
+2022-12-06 19:38:01.982 INFO [main] [Main.main(Main.java:93)] - 42
+2022-12-06 19:38:01.989 INFO [main] [Main.main(Main.java:94)] - Person{id:0, firstName:'Lolita', lastName:'Bosh', age:42', sex:Female'}
+2022-12-06 19:38:01.999 INFO [main] [Main.main(Main.java:95)] - Driver{id:12, firstName:'Giuseppe', lastName:'Verdi', age:32', sex:Male',drivingLicense:DrivingLicenses{id=0, type='B', licenseValidation='true'}}
+2022-12-06 19:38:01.999 INFO [main] [Main.main(Main.java:98)] - Person{id:13, firstName:'MAri', lastName:'Takidze', age:28', sex:Female'}
+2022-12-06 19:38:01.999 INFO [main] [Main.main(Main.java:99)] - 1693393655
+2022-12-06 19:38:01.999 INFO [main] [Main.main(Main.java:100)] - false
+2022-12-06 19:38:01.999 INFO [main] [Main.main(Main.java:102)] - false
+2022-12-06 19:38:01.999 INFO [main] [Main.main(Main.java:103)] - true
+2022-12-06 19:38:02.001 INFO [main] [models.Person.think(Person.java:110)] - I am able to think, therefore I exist.
+2022-12-06 19:38:02.001 INFO [main] [models.Person.speak(Person.java:115)] - Speak Up

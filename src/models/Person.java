@@ -2,6 +2,7 @@ package models;
 import interfaces.IPerson;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Marker;
 
 import java.util.Objects;
 
@@ -106,13 +107,15 @@ public class Person implements IPerson {
 //    }
 
     @Override
-    public void think() {
+    public Marker think() {
         LOGGER.info("I am able to think, therefore I exist.");
+        return null;
     }
 
     @Override
-    public void speak() {
+    public Marker speak() {
         LOGGER.info("Speak Up");
+        return null;
     }
 
     @Override

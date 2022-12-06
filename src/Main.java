@@ -78,43 +78,45 @@ public class Main {
 
 //
 
-//        LOGGER.log();
-        System.out.println(wheel.getId());
-        System.out.println(wheel.getBrandName());
-        System.out.println(wheel.getSize());
+        LOGGER.info(wheel.getId());
+        LOGGER.info(wheel.getBrandName());
+        LOGGER.info(wheel.getBrandName());
+        LOGGER.info(wheel.getSize());
 
-        System.out.println(destination.getStationFrom());
-        System.out.println(destination.getStationTo());
+        LOGGER.info(destination.getStationFrom());
+        LOGGER.info(destination.getStationTo());
 
-        System.out.println(stations.getName());
+        LOGGER.info(stations.getName());
 
 
-        System.out.println(passenger.getFirstName());
-        System.out.println(passenger.getAge());
-        System.out.println(passenger.toString());
-        System.out.println(driver.toString());
+        LOGGER.info(passenger.getFirstName());
+        LOGGER.info(passenger.getAge());
+        LOGGER.info(passenger.toString());
+        LOGGER.info(driver.toString());
 
-        System.out.println(person.toString());
-        System.out.println(person.hashCode());
-        System.out.println(person.equals(null));
 
-        System.out.println(passenger.equals(driver));
-        System.out.println(driver.equals(myDriver));
-        System.out.println(myDriver.hashCode());
-        System.out.println(driver.hashCode());
+        LOGGER.info(person.toString());
+        LOGGER.info(person.hashCode());
+        LOGGER.info(person.equals(null));
+
+        LOGGER.info(passenger.equals(driver));
+        LOGGER.info(driver.equals(myDriver));
+        LOGGER.info(myDriver.hashCode());
+        LOGGER.info(driver.hashCode());
+
 
         vehicle.setEngine(engine);
 
 
-        System.out.println("--------------------------------------");
+        LOGGER.info("--------------------------------------");
         vehicle.move();
 
 
 
+        LOGGER.info(ticket.getTicketPrice());
+        LOGGER.info(ticket.getTicketType());
+        LOGGER.info(ticket.getTicketSeats());
 
-        System.out.println(ticket.getTicketPrice());
-        System.out.println(ticket.getTicketType());
-        System.out.println(ticket.getTicketSeats());
 
 
         //interfaces polymorphism static final
@@ -128,18 +130,24 @@ public class Main {
         car.drive();
         //accessing via class reference
         car.brake();
-        System.out.println(car.getVehicleType()); //???
-        System.out.println(car.getColor());
-        System.out.println(car.honk());
+
+        LOGGER.info(car.getVehicleType());
+        LOGGER.info(car.getColor());
+        LOGGER.info(car.honk());
+//        System.out.println(car.getVehicleType()); //???
+
 
         // person object
-        person.think();
-        person.speak();
+        LOGGER.info(person.think());
+        LOGGER.info(person.speak());
+//        person.think();
+//        person.speak();
         person.setFirstName("Maree");
         person.setAge(32);
-        System.out.println(person.getFirstName());
+        LOGGER.info(person.getFirstName());
         person.displayPersonInfo("Mar","Gango","Female",29);
-        System.out.println(person.getAge());
+
+        LOGGER.info(person.getAge());
 
     }
 }
