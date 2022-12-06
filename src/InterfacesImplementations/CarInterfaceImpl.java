@@ -2,7 +2,7 @@ package InterfacesImplementations;
 
 import interfaces.ICar;
 
-public class CarINterfaceImpl implements ICar {
+public class CarInterfaceImpl implements ICar {
     @Override
     public void backUp() {
 

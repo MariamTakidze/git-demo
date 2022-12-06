@@ -1,11 +1,11 @@
-import InterfacesImplementations.CarINterfaceImpl;
+import InterfacesImplementations.CarInterfaceImpl;
 import interfaces.ICar;
 import models.*;
 
 
 public class Main {
     public static void main(String[] args) {
-        CarINterfaceImpl carInt = new CarINterfaceImpl();
+        CarInterfaceImpl carInt = new CarInterfaceImpl();
 
 
 
