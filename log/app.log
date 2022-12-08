@@ -2,3 +2,21 @@
 2022-12-07 18:34:42.369 INFO [main] [exceptions.TryWithResources.main(TryWithResources.java:38)] - File Content:
 2022-12-07 18:34:42.372 INFO [main] [exceptions.TryWithResources.main(TryWithResources.java:39)] - Forget it!
 2022-12-07 18:34:42.372 INFO [main] [exceptions.TryWithResources.main(TryWithResources.java:45)] - Finally block
+2022-12-07 18:46:24.896 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-07 18:46:24.897 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-07 18:46:24.898 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-07 18:46:24.898 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-07 18:46:57.818 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-07 18:46:57.820 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-07 18:46:57.820 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-07 18:46:57.820 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-07 18:47:22.327 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:29)] - Age is less than 17
+2022-12-07 18:47:22.329 ERROR [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:30)] - age is not valid to get Driving license
+2022-12-07 18:47:22.329 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-07 18:47:22.329 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-07 18:47:53.410 INFO [main] [exceptions.DrivingAgeExceptionHandling.validateDrivingAge(DrivingAgeExceptionHandling.java:16)] - You can get Driving license
+2022-12-07 18:47:53.412 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-07 18:47:53.412 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey
+2022-12-07 18:50:04.154 INFO [main] [exceptions.DrivingAgeExceptionHandling.validateDrivingAge(DrivingAgeExceptionHandling.java:16)] - You can get Driving license
+2022-12-07 18:50:04.157 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:33)] - I am always executed
+2022-12-07 18:50:04.157 INFO [main] [exceptions.DrivingAgeExceptionHandling.main(DrivingAgeExceptionHandling.java:35)] - End of our journey

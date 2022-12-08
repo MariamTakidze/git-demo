@@ -8,6 +8,7 @@ public class DrivingLicenses {
     private String licenseValidation;
 
     public DrivingLicenses() {
+
     }
 
     public int getId() {

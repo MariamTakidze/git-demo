@@ -19,10 +19,10 @@ public class DrivingAgeExceptionHandling {
     }
     public static void main(String[] args) {
         try{
-            validateDrivingAge(16);
+            validateDrivingAge(19);
         }
         catch (NumberFormatException  e){
-//            System.out.println("Number format exception occurred" + e.getMessage());
+            System.out.println("Number format exception occurred" + e.getMessage());
             LOGGER.error(e.getMessage());
         }
         catch (InvalidDrivingAgeException exception){

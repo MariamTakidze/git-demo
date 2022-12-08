@@ -1,6 +1,10 @@
 package models;
 import interfaces.ICar;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
 public  class Car extends Vehicle implements ICar {
     //final variable
     final static String vehicleType = "Car";
@@ -37,5 +41,10 @@ public  class Car extends Vehicle implements ICar {
     @Override
     public void indicate() {
 
+    }
+
+    public static void DisplayColor(){
+        Collection<String> collection =new ArrayList<>();
+        Collections.addAll(collection,"Blue","Purple","Black");
     }
 }

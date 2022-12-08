@@ -131,6 +131,7 @@ public class Main {
         //accessing via class reference
         car.brake();
 
+
         LOGGER.info(car.getVehicleType());
         LOGGER.info(car.getColor());
         LOGGER.info(car.honk());
@@ -148,6 +149,7 @@ public class Main {
         person.displayPersonInfo("Mar","Gango","Female",29);
 
         LOGGER.info(person.getAge());
+
 
     }
 }
