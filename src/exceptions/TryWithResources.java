@@ -33,8 +33,8 @@ public class TryWithResources {
 //    }
 
     public static void main(String[] args) {
-        String filename = "C:\\Users\\m.takidze\\IdeaProjects\\OOP\\src\\exceptions\\test.txt";
-        try(BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        String filepath = "C:\\Users\\m.takidze\\IdeaProjects\\OOP\\src\\exceptions\\test.txt";
+        try(BufferedReader br = new BufferedReader(new FileReader(filepath))) {
             LOGGER.info("File Content:");
             LOGGER.info((br.readLine()));
         }

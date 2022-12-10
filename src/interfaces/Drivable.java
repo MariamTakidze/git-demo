@@ -9,7 +9,7 @@ public interface Drivable {
      void indicate(); //switching indicators in order to signal that driver intends to change direction
      //static methods should have bodies
      default void brake(){
-//          System.out.println("The vehicle is braked");
+
      };
 
 }

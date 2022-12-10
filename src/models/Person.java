@@ -8,11 +8,11 @@ import java.util.Objects;
 
 public class Person implements IPerson {
     private static final Logger LOGGER = LogManager.getLogger(Person.class);
-     int id;
+   protected   int id;
 
-    String firstName;
+    protected String firstName;
 
-     String lastName;
+     protected String lastName;
 
     int age;
     String sex;

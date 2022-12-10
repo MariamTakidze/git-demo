@@ -48,6 +48,7 @@ public class Main {
         person.setLastName("Takidze");
         person.setAge(28);
         person.setSex("Female");
+//        person.displayPersonInfo();
     //passenger
         Passenger passenger = new Passenger();
         passenger.setFirstName("Lolita");
@@ -146,7 +147,7 @@ public class Main {
         person.setFirstName("Maree");
         person.setAge(32);
         LOGGER.info(person.getFirstName());
-        person.displayPersonInfo("Mar","Gango","Female",29);
+//        person.displayPersonInfo("Mar","Gango","Female",29);
 
         LOGGER.info(person.getAge());
 
